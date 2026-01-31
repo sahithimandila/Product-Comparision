@@ -1,0 +1,48 @@
+const products = [
+  {
+    id: 'p1',
+    name: 'Alpha Phone X',
+    brand: 'Alpha',
+    price: 799,
+    rating: 4.5,
+    weight: '172g',
+    battery: '4200mAh',
+    features: ['OLED', '5G', 'Dual Camera'],
+    image: 'https://via.placeholder.com/240x160?text=Alpha+Phone+X',
+  },
+  {
+    id: 'p2',
+    name: 'Beta One S',
+    brand: 'Beta',
+    price: 599,
+    rating: 4.0,
+    weight: '185g',
+    battery: '4000mAh',
+    features: ['LCD', '4G', 'Triple Camera'],
+    image: 'https://via.placeholder.com/240x160?text=Beta+One+S',
+  },
+  {
+    id: 'p3',
+    name: 'Gamma Pro',
+    brand: 'Gamma',
+    price: 999,
+    rating: 4.8,
+    weight: '165g',
+    battery: '4500mAh',
+    features: ['AMOLED', '5G', 'Quad Camera', 'Wireless Charging'],
+    image: 'https://via.placeholder.com/240x160?text=Gamma+Pro',
+  },
+  {
+    id: 'p4',
+    name: 'Delta Lite',
+    brand: 'Delta',
+    price: 399,
+    rating: 3.9,
+    weight: '190g',
+    battery: '3500mAh',
+    features: ['LCD', '4G'],
+    image: 'https://via.placeholder.com/240x160?text=Delta+Lite',
+  },
+]
+
+export default products
